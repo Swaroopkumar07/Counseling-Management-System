@@ -1,0 +1,38 @@
+.edit-marks-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+.tableHeaderRefundStyle{
+    background-color: rgba(230, 225, 225, 0.658);
+    border: 1px solid black;
+  
+  }
+  .tableHeaderRefundStyle th{
+    font-weight: 600;
+    font-size: 14px;
+    color:#000;
+    
+  }
+  .marks_table_row{
+    border: 1px solid black;
+  }
+  .marks_table_row>th{
+    border: 1px solid black;
+    text-align: center;
+
+  }
+  .marks_table_row>.td{
+    border: 1px solid black;
+    text-align: center;
+  }
+  .marks_subject{
+    width: 50%;
+  }
+  ::-webkit-scrollbar {
+    width: 0rem;
+  }

@@ -1,0 +1,111 @@
+.feedback-container{
+    width : 100%;
+    height :100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: rgb(240, 240, 237);
+}
+.feedback-header{
+    width: 100%;
+    height : 2rem;
+    background-color:green;
+    padding : 0.8rem 0.8rem;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 0.2rem;
+}
+.scroll-view{
+    height: 65vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 0.8rem;
+    position: relative;
+    margin-bottom: 1.1rem;
+}
+.date-scroll-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.date-header{
+    width : fit-content;
+    height : auto;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 0.2rem 0.8rem;
+    position: sticky;
+    top:0;
+    z-index:1;
+    background-color: rgb(188, 188, 184);
+    border-radius:0.2rem;
+
+    
+}
+.scrollable{
+    width:100%;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    margin:0.2rem 0.2rem;
+}
+.left-message{
+    align-self: flex-start;
+    max-width: 40%;
+    min-width: 12%;
+    background-color: green;
+    color: whitesmoke;
+    border-radius: 0.8rem;
+    margin-bottom:0.2rem;
+    
+}
+.right-message{
+    align-self: flex-end;
+    max-width: 40%;
+    min-width: 10%;
+    background-color: #33ADDB;
+    border-radius: 0.8rem;
+    margin-bottom: 0.1rem;
+    color: black;
+    height: auto;
+
+}
+.send-message-c{
+    margin-top: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height:7vh;
+    display: flex;
+    justify-content: space-between;
+    input{
+        width: 80%;
+        border:1px solid grey;
+        padding: 0.4rem 0.4rem;
+        border-radius : 0.2rem;
+        font-size: 1rem;
+
+    };
+    input:focus{
+        outline: none;
+        border: 1px solid grey
+    }
+    button{
+        width: 20%;
+        background-color: #000080;
+        color: white;
+        border: none;
+        border-radius: 0.2rem;
+    }
+}
+::-webkit-scrollbar{
+    width:1rem;
+}

@@ -1,0 +1,40 @@
+.student-home-container{
+    width: 100vw;
+    height : 82vh;
+    display: flex;
+    flex-direction: row;
+  }
+.sidebar-container{
+    width:20vw;
+    height:82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* background-color: rgb(93, 178, 232); */
+    background-color: #33ADDB;
+    gap:2rem
+}
+
+.active-container{
+    width : 80vw;
+    height : 82vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.link{
+    text-align: center;
+    text-decoration: none !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    
+}
+
+
+  

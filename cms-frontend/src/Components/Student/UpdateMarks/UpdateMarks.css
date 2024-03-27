@@ -1,0 +1,117 @@
+
+.update-marks-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.semester-div{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+
+}
+.label{
+    width:9rem;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+
+}
+.select{
+  width:9rem;
+}
+.button{
+    width: 9rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 0.6rem;
+    padding: 0.5rem 0.5rem;
+    background-color: #ffffff;
+
+}
+.button:hover{
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+select{
+    width: auto;
+    height: 2rem;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 0.6rem;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 2rem;
+}
+  .accordin{
+      width:90%;
+      height:auto;
+      margin-bottom: 1rem;
+      align-self:center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      gap:1rem
+    }
+    #panel1-header{
+      font-size: 18px !important;
+      font-weight: 600 !important;
+      color: #000000 !important;
+    }
+    .accordin_booking_record_icon{
+      color: #000000;
+      font-size: 19px;
+    }
+  
+  .accordin_box{
+      width: 90%;
+      box-shadow: 0 4px 8px rgba(32, 27, 27, 0.4) !important;
+    }
+    .tableHeaderRefundStyle{
+      background-color: rgba(230, 225, 225, 0.658);
+      border: 1px solid black;
+    
+    }
+    .tableHeaderRefundStyle th{
+      font-weight: 600;
+      font-size: 14px;
+      color:#000;
+      
+    }
+    .marks_table_row{
+      border: 1px solid black;
+    }
+    .marks_table_row>th{
+      border: 1px solid black;
+      text-align: center;
+  
+    }
+    .marks_table_row>.td{
+      border: 1px solid black;
+      text-align: center;
+    }
+    .marks_subject{
+      width: 50%;
+    }
+    ::-webkit-scrollbar {
+      width: 0rem;
+    }
+    td:focus{
+      outline: 2px solid black;
+      box-shadow: inset 0.1px 0.1px 0.1px 0.1px rgb(68, 67, 67);
+    }

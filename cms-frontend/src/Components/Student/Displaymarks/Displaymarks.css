@@ -1,0 +1,58 @@
+.marks-container{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.acoordin{
+    width:90%;
+    height:auto;
+    margin-bottom: 1rem;
+    align-self:center;
+  }
+  #panel1-header{
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: #000000 !important;
+
+  }
+  .accordin_booking_record_icon{
+    color: #000000;
+    font-size: 19px;
+  }
+
+.Accordin_box{
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(32, 27, 27, 0.4) !important;
+  }
+  .tableHeaderRefundStyle{
+    background-color: rgba(230, 225, 225, 0.658);
+    border: 1px solid black;
+  
+  }
+  .tableHeaderRefundStyle th{
+    font-weight: 600;
+    font-size: 14px;
+    color:#000;
+    
+  }
+  .marks_table_row{
+    border: 1px solid black;
+  }
+  .marks_table_row>th{
+    border: 1px solid black;
+    text-align: center;
+
+  }
+  .marks_table_row>td{
+    border: 1px solid black;
+    text-align: center;
+  }
+  .marks_subject{
+    width: 50%;
+  }
+  ::-webkit-scrollbar {
+    width: 0rem;
+  }

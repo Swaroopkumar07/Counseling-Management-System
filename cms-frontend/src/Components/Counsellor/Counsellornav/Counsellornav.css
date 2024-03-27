@@ -1,0 +1,18 @@
+.sidebar-container{
+    width:20vw;
+    height:82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(93, 178, 232);
+    
+}
+p{
+    padding: 0.2rem 1rem;
+    color: white;
+}
+p:hover{
+    color:blue !important;
+    cursor: pointer;
+}
